@@ -30,5 +30,6 @@ public class NotificationService {
         messageBuilder.append(this.message.getMessage());
         messageBuilder.append("\nChannel:");
         messageBuilder.append(this.channel.getType());
+        System.out.println(messageBuilder);
     }
 }
